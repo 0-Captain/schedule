@@ -4,7 +4,7 @@ import { CommonSchedule, Provide, Schedule } from '@midwayjs/decorator';
 @Schedule({
   type: 'worker',
   interval: 1000,
-  env: ['prod'],
+  env: ['staging'],
   immediate: true,
 })
 export class Test2 implements CommonSchedule {
